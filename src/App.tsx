@@ -8,7 +8,7 @@ import { useAuth } from './hooks/useAuth';
 import LoadingSpinner from './components/LoadingSpinner';
 
 function App() {
-  return (
+return (;
     <ErrorBoundary>
       <Router>
         <AppRoutes />
