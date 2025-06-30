@@ -6,13 +6,13 @@ import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import { useAuth } from './hooks/useAuth';
 import LoadingSpinner from './components/LoadingSpinner';
-
+return (
 function App() {
 return (;
     <ErrorBoundary>
       <Router>
         <AppRoutes />
-      </Router>
+return (
     </ErrorBoundary>
   );
 }
@@ -21,7 +21,7 @@ return (;
   const { user, loading } = useAuth();
 
   if (loading) {
-return (;
+return (
       <div className="min-h-screen bg-dark-bg flex items-center justify-center">
         <LoadingSpinner size="lg" />
       </div>
