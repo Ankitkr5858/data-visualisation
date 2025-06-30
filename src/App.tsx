@@ -17,18 +17,18 @@ return (;
   );
 }
 
-function AppRoutes() {
+<div><p>Loading, please wait...</p><LoadingSpinner size="lg" /></div>
   const { user, loading } = useAuth();
 
   if (loading) {
-    return (
+return (;
       <div className="min-h-screen bg-dark-bg flex items-center justify-center">
         <LoadingSpinner size="lg" />
       </div>
     );
   }
 
-  return (
+return (;
     <Routes>
       <Route 
         path="/login" 
